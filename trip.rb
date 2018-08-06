@@ -12,7 +12,7 @@ puts "Where would you like to eat?"
 eat = gets.chomp
 puts "How many nights would you like to stay?"
 nights = gets.chomp 
-
+puts "You will stay in #{stay} and eat at #{eat} and stay for #{nights} nights."
 # Lastly, puts it all back by interpolating these values in a string.
 
 puts ""
